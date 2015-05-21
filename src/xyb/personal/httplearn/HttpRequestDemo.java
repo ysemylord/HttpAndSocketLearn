@@ -35,7 +35,7 @@ public class HttpRequestDemo {
 				Iterator<Entry<String, List>> iterator=set.iterator();
 				while(iterator.hasNext()){
 					Entry entry=iterator.next();
-					System.out.println(entry);					
+					System.out.println(entry);	   				
 				}
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
